@@ -7,6 +7,7 @@ tasks:
       dotnet dev-certs https 
       dotnet restore
       dotnet build
+      dotnet watch --project dotnetcore.csproj run
 
 vscode:
   extensions:
