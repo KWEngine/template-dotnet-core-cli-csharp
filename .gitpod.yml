@@ -8,7 +8,7 @@ tasks:
       dotnet restore
       dotnet build
   - name: Watch
-      dotnet watch --project dotnetcore.csproj run
+     # dotnet watch --project dotnetcore.csproj run
 
 vscode:
   extensions:

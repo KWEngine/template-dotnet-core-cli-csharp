@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace dotnetcore
 {
@@ -8,7 +9,7 @@ namespace dotnetcore
         {
             Console.WriteLine("Hello World with GitPod!");
             System.Console.WriteLine("Test");
-            
+            List<string> myTestList = new List<string>();
         }
     }
 }
